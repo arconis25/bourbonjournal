@@ -1,0 +1,1018 @@
+<html><head><title>Preview</title>
+<style type="text/css"><!--
+/*
+Theme Name: wp_yoghourt
+Theme URI: http://web-kreation.com/wp_yoghourt/
+Description: A 2 columns layout.
+Version: 2.2
+Author: Jeremie Tisseau
+Author URI: http://web-kreation.com/index.php/blog/
+Tags: fixed width, widget ready, 2 columns, left sidebar, mootools, gravatars, brown, red
+
+Date: Aug 17, 2008
+
+    Copyright 2005-2008 Web-kreation. Some rights reserved. Leave footer statement intact please.
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+html, body {border: 0; margin: 0; padding: 0;}
+
+body {
+  font: 90%/1 arial, helvetica, sans-serif;
+  line-height: 140%;
+  background: #443833;
+  width: 100%;
+  min-width: 970px;
+}
+/***** Common Formatting *****/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+h1 {
+  width: 97%;
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+  letter-spacing: -1px;
+  font: 2em Georgia, "Times New Roman", Times, serif;
+  color: #877065;
+  background-color: transparent;
+  border-bottom: 1px dotted #877065;
+}
+
+h1 a {color: #443833; text-decoration: none;}
+
+h1 a:hover {
+  color: #6C574F;
+  text-decoration: none;
+  border: none;
+}
+
+h1 span {
+	color: black;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+h2 {
+  padding: 15px 0 7px 0;
+  color: #443833;
+  background-color: transparent;
+  letter-spacing: -1px;
+  font: 1.4em bold arial, helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  padding: 7px 0 ;
+  font: 1.1em arial, helvetica, sans-serif;
+  font-weight: bold;
+  color: #6C574F;
+}
+
+p {margin: 0; padding: 0 0 18px 0;}
+
+p.notfound{padding: 15px 0 100px;}
+
+ul, ol {margin: 0; padding: 0 0 20px 40px;}
+
+ul {list-style: none;}
+
+blockquote {
+  font-family: Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+code {
+  display: block;
+  width: 80%;
+  background-color: #F5F4F3;
+  border: #E2DBD8 1px solid;
+  color: #666666;
+  padding: 3px 5px;
+  margin: 10px 0;
+}
+
+pre {
+  padding: 1em;
+  border: 1px dashed #2f6fab;
+  color: black;
+  background-color: #f9f9f9;
+  line-height: 1.1em;
+}
+
+small {font-size: 0.85em;}
+
+img {border: none;}
+
+sup {
+  position: relative;
+  bottom: 0.3em;
+  vertical-align: baseline;
+}
+
+sub {
+  position: relative;
+  bottom: -0.2em;
+  vertical-align: baseline;
+}
+
+acronym, abbr {
+  cursor: help;
+  letter-spacing: 1px;
+  border-bottom: 1px dashed;
+}
+
+hr {
+  display: block;
+  clear: both;
+  border-top: 1px dotted #E7E1DE;
+  border-bottom: 1px dotted white;
+  margin: 5px 20px 0;
+}
+/***** Links *****/
+
+a {
+  text-decoration: none;
+  color: #877065;
+  border-bottom: 1px;
+}
+
+a:hover {text-decoration: none; color: #443833;}
+
+a img {
+  border: none;/*remove border for linked images*/
+}
+/***** Tables *****/
+
+table {border: 0; margin: 0 0 18px 0; padding: 0;}
+
+table tr td {padding: 2px;}
+/***** Global Classes *****/
+
+.clear {clear: both;}
+
+.alignleft {display: block; float: left;}
+
+.alignright {display: block; float: right;}
+
+.aligncenter {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.endOfSection {
+  clear: both;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/***** Main Layout ****/
+
+#container {
+  background: url(images/bg_top.jpg) repeat-x top left;
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper {
+  width: 970px;
+  background: url(images/bg.jpg) repeat-y top left;
+  text-align: center;/* IE fix to center the page */
+  margin: 0 auto;/* center the page in Firefox */
+}
+/**** Sidebar ****/
+
+#sidebar {
+  display: block;
+  float: left;
+  clear: left;
+  width: 290px;
+  text-align: left;
+  color: white;
+}
+
+/* Logo and Slogan */
+
+#sidebar #sb_top {
+  width: 260px;
+  height: 240px;
+  padding: 0 15px;
+  background: url(images/sb_top.jpg) no-repeat left top;
+  color: #A8948A;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sidebar #sb_top a {
+  display: block;
+  width: 260px;
+  text-decoration: none;
+  color: #FFFF99;
+}
+
+#sidebar #sb_top a:hover {
+  text-decoration: none;
+  color: #FFFFBB;
+  border:none;
+}
+
+#sidebar #sb_top img {
+  border:none;
+  border: none;
+  padding:0;
+  margin: 0;
+}
+
+#sidebar #sb_top .sb_logo {padding-top: 67px;}
+
+/* End logo and Slogan */
+
+#sidebar p {
+  margin: 10px 0;
+}  
+
+#sidebar ul {list-style: none; margin: 0; padding: 0;}
+
+#sidebar ul li {
+  padding-left: 12px;
+  text-align: left;
+  width: 268px;
+  list-style: none;
+  display: block;
+}
+
+#sidebar ul ul {margin-bottom: 20px;}
+
+#sidebar ul li h2 {
+  color: #F5F1C2;
+  background: url(images/bg_h2.png) repeat-x;
+  min-height: 30px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font: 1.5em Georgia, "Times New Roman", Times, serif;
+}
+
+/*links*/
+#sidebar ul li a {color: #FFFF99;}
+
+#sidebar ul li a:hover {
+  color: #FFFF99;
+  border-bottom: 1px dotted #FFFF99;
+}
+
+#sidebar ul li img {
+  border: 1px solid #302723;
+  padding: 4px;
+  background-color: #443833;
+  Margin: 0;
+}
+
+#sidebar ul li img a {
+  border: none;/*remove border for linked images*/
+}
+
+#sidebar ul li img a:hover {border: none;}
+
+#sidebar ul li img.noborder {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  Margin: 0;
+  margin-left: 10px;
+}
+
+/***** Widgets *****/
+#sidebar ul li.widget {
+  padding: 0 15px 15px 27px;
+  width: 238px;
+  text-align: left;
+  list-style: none;
+  display: block;
+}
+
+#sidebar ul li.widget h2 {
+	margin: 0 -15px;
+}
+
+#sidebar ul li.widget ul li {
+  margin: 0;
+  padding: 0;
+  width: 228px;
+  list-style: none;
+}
+
+/**** Main Menu ****/
+
+#sidebar ul.navlist {
+  display: block;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 268px;
+  font-size: 16px;
+}
+
+#sidebar ul.navlist li {
+  display: inline;
+  line-height: 0px;/* fix the unwanted gap between li elements in FF */
+}
+
+#sidebar ul.navlist li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  padding: 2px 2px 2px 24px;
+  text-decoration: none;
+  border-top: 1px solid #705A52;
+  border-bottom: 1px solid #3E322D;
+}
+
+#sidebar ul.navlist a:hover {
+  color: #877065;
+  background-color: #443833;
+  border-bottom: 1px solid #3E322D;
+}
+
+#sidebar ul.navlist li a.noborder, #sidebar ul.navlist li a:hover.noborder {
+  border-bottom: none;
+}
+
+#sidebar ul.navlist .current_page_item a, #sidebar ul.navlist .current_page_item a:hover {
+  background: #443833 url(images/menu_arrow_active.jpg) no-repeat center left;
+  cursor: default;
+  color: #877065;
+}
+/*Copyright*/
+
+#sidebar .copyright {
+  display: block;
+  margin: 60px auto 40px auto;
+  padding: 5px 7px;
+  width: 220px;
+  text-align: center;
+  background-color: #302723;
+  border: 1px solid black;
+  color: #877065;
+}
+
+#sidebar .copyright p {padding: 0;}
+
+#sidebar .copyright a {color: #FFFF99;}
+
+#sidebar .copyright a:hover {
+  color: #FFFF99;
+  border-bottom: 1px dotted #FFFF99;
+}
+/*feed*/
+
+#sidebar ul.feed li {
+  background: url(images/rss.jpg) no-repeat 20px 0;
+  margin-bottom: 20px;
+  padding-left: 45px;
+  width: 180px;
+}
+/**** Header ****/
+
+#top {
+  background: url(images/bg_top.jpg) repeat-x top left;
+  display: block;
+  float: left;
+  clear: right;
+  width: 680px;
+  height: 40px;
+  padding-top: 15px;
+  color: white;
+  text-align: right;
+}
+
+#top a {color: white;}
+
+#top a:hover {
+  border-bottom: 1px dotted white;
+}
+/**** Content ****/
+
+#content {
+  display: block;
+  float: left;
+  width: 668px;
+  background-color: white;
+  border-top: #877065 9px solid;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+#content ul li {list-style: url(images/bullet.jpg);}
+
+#content img.alignleft,
+#content img.alignright,
+#content img.aligncenter {
+  border: 1px solid #D0C5BF;
+  padding: 3px;
+  background-color: #E7E1DE;
+  display: block;
+}
+
+#content img.alignleft {
+  float: left;
+  clear: none;
+  margin: 5px 10px 0 0;
+}
+
+#content img.alignright {
+  float: right;
+  margin: 5px 0 0 10px;
+}
+
+#content img.aligncenter {
+  margin: 10px auto;
+  clear: both;
+}
+
+#content img.noborder {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 10px;
+}
+
+#content #intro {
+  background: #55453E url(images/intro.jpg) no-repeat center;
+  height: 176px;
+  color: white;
+  padding: 0 30px 0 40px;
+}
+
+#content #intro h1 {
+  margin: 0;
+  color: white;
+  font-size: 36px;
+  border: none;
+  padding: 35px 0 0 0;
+}
+
+#content #intro h2 {
+  margin: 0;
+  padding: 0 0 15px 0;
+  color: white;
+  font-size: 18px;
+  font-weight: normal !important;
+}
+
+#content #intro p {padding: 0;}
+/*links*/
+
+#content #intro a, #introduction a {color: #FFFF99;}
+
+#content #intro a:hover, #introduction a:hover {
+  color: #FFFF99;
+  border-bottom: 1px dotted #FFFF99;
+}
+/* Navigation Next and Previous Post */
+
+#content .navigation {
+  display: block;
+  clear: both;
+  margin: 0 20px;
+  margin-top: 10px;
+  padding: 3px 10px;
+}
+/* Navigation Next and Previous Page */
+
+#content .browse{
+  display: block;
+  clear: both;
+  margin: 10px 20px 20px;
+  padding: 3px 10px;
+  text-align: center;
+}
+/* Calendar */
+
+#content .calendar {
+  Float: left;
+  clear: left;
+  background: url(images/calendar.jpg) no-repeat left top;
+  width: 50px;
+  height: 55px;
+  margin-top: 20px;
+}
+
+#content .calendar .month {
+  display: block;
+  clear: both;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#content .calendar .date {
+  display: block;
+  clear: left;
+  text-align: center;
+  font-size: 30px;
+  color: #393939;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 1px;
+}
+/* main content */
+
+#content .post {
+  display: block;
+  float: left;
+  width: 580px;
+  margin: 15px 0 40px;
+  padding: 0 15px;
+}
+
+#content .post .author {
+  font-size: 75%;
+  display: block;
+  height: 15px;
+  line-height: 15px;
+  clear: both;
+  margin-bottom: 15px;
+  background: url(images/author.jpg) no-repeat left top;
+  padding-left: 25px;
+}
+/* the links at the bottom of each posts */
+
+#content .post .links {
+  display: block;
+  clear: both;
+  width: 95%;
+  background-color: #FAFAFA;
+  border-top: #E2DBD8 1px dotted;
+  border-bottom: #E2DBD8 1px dotted;
+  color: #444444;
+  padding: 3px 10px;
+  font-size: 85%;
+}
+
+#content .post .links a {
+  text-decoration: none;
+  color: #666666;
+}
+
+#content .post .links a:hover {
+  color: #666666;
+  border-bottom: dotted 1px #666666;
+}
+
+#content .post .links .comment {
+  background: url(images/comment.jpg) no-repeat left center;
+  padding-left: 20px;
+}
+
+#content .post .links .feed {
+  background: url(images/feed.jpg) no-repeat left center;
+  padding-left: 20px;
+}
+
+#content .post .links .cat {
+  background: url(images/categories.jpg) no-repeat left center;
+  padding-left: 20px;
+}
+
+#content .post .links .tags {
+  background: url(images/tags.jpg) no-repeat left center;
+  padding-left: 20px;
+}
+/* Comments Template */
+
+#comments-template{
+  display: block;
+  clear: both;
+  margin: 0px 25px;
+}
+
+#comments-template p{line-height: 24px;}
+
+#comments-template p.nocomments{padding: 0 15px;}
+
+#comments-template h2, #comments-template h3{
+  display: block;
+  clear: both;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+  letter-spacing: -1px;
+  font: 2em Georgia, "Times New Roman", Times, serif;
+  color: #443833;
+  font-size: 140%;
+  border-bottom: 1px dotted #877065;
+}
+
+h3 #comments, h3 #respond{padding: 0 0 0 15px;}
+
+h3 #respond{padding: 30px 0 0 15px;}
+
+#comments-template #commentlist {
+  display: block;
+  clear: both;
+  border: 1px solid #E2DBD8;
+  background: #F5F4F3 url(images/comment_bg.jpg) repeat-y left top;
+  margin: 15px 0;
+  padding: 0;
+}
+
+#comments-template #commentlist img, #comments-template #commentlist a img {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+#comments-template #commentlist .commentmetadata {
+  display: block;
+  float: left;
+  clear: left;
+  width: 118px;
+  background: url(images/comment_arrow.jpg) no-repeat right 20px;
+  padding: 5px 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+#comments-template #commentlist .avatar {
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #fff;
+	margin-right: 7px;
+}
+
+#comments-template #commentlist .commenttext {
+  display: block;
+  float: left;
+  clear: right;
+  width: 420px;
+  padding: 5px 10px 5px 25px;
+}
+/* alternate comments */
+
+#comments-template #commentlist.alt {
+  display: block;
+  clear: both;
+  border: 1px solid #E2DBD8;
+  background: #FAFAFA url(images/comment_bg_alt.jpg) repeat-y left top;
+  margin: 15px 0;
+  padding: 0;
+}
+
+#comments-template #commentlist.alt .commentmetadata {
+  display: block;
+  float: left;
+  clear: left;
+  width: 118px;
+  background: url(images/comment_arrow_alt.jpg) no-repeat right 20px;
+  padding: 5px 10px;
+  font-size: 11px;
+}
+
+#comments-template #commentlist.alt .commenttext {
+  display: block;
+  float: left;
+  clear: right;
+  width: 420px;
+  padding: 5px 10px 5px 25px;
+}
+/* End Comments Template */
+/* wp-calendar */
+
+#wp-calendar {
+  empty-cells: show;
+  font-size: 14px;
+  margin: 0;
+  width: 100%;
+  color: #302723;
+}
+
+#wp-calendar #next a {
+  padding-right: 10px;
+  text-align: right;
+}
+
+#wp-calendar #prev a {
+  padding-left: 10px;
+  text-align: left;
+}
+
+#wp-calendar a {
+  display: block;
+  text-decoration: none;
+  color: #FFFF99;
+}
+
+#wp-calendar a:hover {
+  background: #433732;
+  color: #FFFF99;
+  border-bottom: none;
+}
+
+#wp-calendar caption {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+#wp-calendar td {
+  color: black;
+  background: transparent;
+  font: normal 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  letter-spacing: normal;
+  padding: 2px 0;
+  text-align: center;
+}
+
+#wp-calendar td.pad:hover {background: #433732;}
+
+#wp-calendar td:hover, #wp-calendar #today {
+  background: #433732;
+  border: none;
+  color: #FFFF99;
+  border: none;
+}
+
+#wp-calendar th {
+  font-style: normal;
+  text-transform: capitalize;
+}
+/***** Footer *****/
+
+#footer {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 60px;
+  font-size: 80%;
+  color: #6C574F;
+  background: #443833 url(images/sb_bottom.jpg) no-repeat left top;
+}
+
+#footer .contentfoot {
+  display: block;
+  float: right;
+  width: 680px;
+  height: 30px;
+  padding: 5px 0;
+  border-top: #877065 10px solid;
+}
+
+#footer a {color: #866B62;}
+
+#footer a:hover {border-bottom: 1px dotted #866B62;}
+
+#footer .backtotop {
+  background: url(images/backtotop.jpg) no-repeat left top;
+  float: right;
+  clear: right;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#footer .backtotop a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+/**** Form Layout ****/
+
+form {margin: 0; padding: 0; display: inline;}
+
+input, textarea, select {
+  font: 1em arial, helvetica, sans-serif;
+  background-color: #877065;
+  border: 1px solid #443833;
+  line-height: 1.25em;
+  padding: 0 0 0 2px;
+}
+
+input:focus, textarea:focus, select:focus {
+  border: 1px solid #55453E;
+  background-color: #BDADA6;
+}
+
+label {cursor: pointer;}
+
+.errormsg {
+  display: block;
+  width: 90%;
+  color: #FFFFFF;
+  font-weight: bold;
+  background: #FF9D9D url(images/stop.gif) no-repeat 10px center;
+  padding: 3px 10px 3px 40px;
+  margin: 10px 0;
+  border-top: 2px solid #FF0000;
+  border-bottom: 2px solid #FF0000;
+}
+
+input.button {
+  background: url(images/button.jpg) repeat-x center;
+  color: white;
+  padding: 0 7px;
+  height: 23px;
+  border: 1px solid #302723;
+  cursor: pointer;
+}
+/*Search input*/
+
+input.search {
+  background: transparent url(images/search.jpg) no-repeat;
+  border: none;
+  width: 220px;
+  height: 25px;
+  padding-left: 35px;
+  padding-top: 5px;
+  color: white;
+}
+
+
+--></style>
+</head>
+<body>
+<a name="0"></a><html>Element html</html><br>
+<a name="1"></a><body>Element body</body><br>
+<a name="2"></a><body>Element body</body><br>
+<a name="3"></a><h1>Element h1</h1><br>
+<a name="4"></a><h2>Element h2</h2><br>
+<a name="5"></a><h3>Element h3</h3><br>
+<a name="6"></a><h4>Element h4</h4><br>
+<a name="7"></a><h5>Element h5</h5><br>
+<a name="8"></a><h6>Element h6</h6><br>
+<a name="9"></a><h1>Element h1</h1><br>
+<a name="10"></a><h1 a>Element h1 a</h1 a><br>
+<a name="11"></a><h1 a>Element h1 a</h1 a><br>
+<a name="12"></a><h1 span>Element h1 span</h1 span><br>
+<a name="13"></a><h2>Element h2</h2><br>
+<a name="14"></a><h3>Element h3</h3><br>
+<a name="15"></a><p>Element p</p><br>
+<a name="16"></a><p class="notfound">Element p, Class notfound</p><br>
+<a name="17"></a><ul><li>Unordered List</li></ul><br>
+<a name="18"></a><ol><li>Ordered List</li></ol><br>
+<a name="19"></a><ul><li>Unordered List</li></ul><br>
+<a name="20"></a><blockquote>Element blockquote</blockquote><br>
+<a name="21"></a><code>Element code</code><br>
+<a name="22"></a><pre>Element pre</pre><br>
+<a name="23"></a><small>Element small</small><br>
+<a name="24"></a><img src="file://C:\Archivos de programa\WeBuilder 2007\Image.gif"> Image<br>
+<a name="25"></a><sup>Element sup</sup><br>
+<a name="26"></a><sub>Element sub</sub><br>
+<a name="27"></a><acronym>Element acronym</acronym><br>
+<a name="28"></a><abbr>Element abbr</abbr><br>
+<a name="29"></a><hr><br>
+<a name="30"></a><a href="http://www.blumentals.net" target="_blank">Link</a><br>
+<a name="31"></a><a href="http://www.blumentals.net" target="_blank">Link</a><br>
+<a name="32"></a><a img>Element a img</a img><br>
+<a name="33"></a><table><tr><td>Table</td></tr></table><br>
+<a name="34"></a><table tr td>Element table tr td</table tr td><br>
+<a name="35"></a><div class="clear">Class clear</div>
+<br>
+<a name="36"></a><div class="alignleft">Class alignleft</div>
+<br>
+<a name="37"></a><div class="alignright">Class alignright</div>
+<br>
+<a name="38"></a><div class="aligncenter">Class aligncenter</div>
+<br>
+<a name="39"></a><div class="endOfSection">Class endOfSection</div>
+<br>
+<a name="40"></a><div id="container">ID container</div>
+<a name="41"></a><div id="wrapper">ID wrapper</div>
+<a name="42"></a><div id="sidebar">ID sidebar</div>
+<a name="43"></a><div id="sidebar #sb_top">ID sidebar #sb_top</div>
+<a name="44"></a><div id="sidebar #sb_top a">ID sidebar #sb_top a</div>
+<a name="45"></a><div id="sidebar #sb_top a:hover">ID sidebar #sb_top a:hover</div>
+<a name="46"></a><div id="sidebar #sb_top img">ID sidebar #sb_top img</div>
+<a name="47"></a><div id="sidebar #sb_top .sb_logo">ID sidebar #sb_top .sb_logo</div>
+<a name="48"></a><div id="sidebar p">ID sidebar p</div>
+<a name="49"></a><div id="sidebar ul">ID sidebar ul</div>
+<a name="50"></a><div id="sidebar ul li">ID sidebar ul li</div>
+<a name="51"></a><div id="sidebar ul ul">ID sidebar ul ul</div>
+<a name="52"></a><div id="sidebar ul li h2">ID sidebar ul li h2</div>
+<a name="53"></a><div id="sidebar ul li a">ID sidebar ul li a</div>
+<a name="54"></a><div id="sidebar ul li a:hover">ID sidebar ul li a:hover</div>
+<a name="55"></a><div id="sidebar ul li img">ID sidebar ul li img</div>
+<a name="56"></a><div id="sidebar ul li img a">ID sidebar ul li img a</div>
+<a name="57"></a><div id="sidebar ul li img a:hover">ID sidebar ul li img a:hover</div>
+<a name="58"></a><div id="sidebar ul li img.noborder">ID sidebar ul li img.noborder</div>
+<a name="59"></a><div id="sidebar ul li.widget">ID sidebar ul li.widget</div>
+<a name="60"></a><div id="sidebar ul li.widget h2">ID sidebar ul li.widget h2</div>
+<a name="61"></a><div id="sidebar ul li.widget ul li">ID sidebar ul li.widget ul li</div>
+<a name="62"></a><div id="sidebar ul.navlist">ID sidebar ul.navlist</div>
+<a name="63"></a><div id="sidebar ul.navlist li">ID sidebar ul.navlist li</div>
+<a name="64"></a><div id="sidebar ul.navlist li a">ID sidebar ul.navlist li a</div>
+<a name="65"></a><div id="sidebar ul.navlist a:hover">ID sidebar ul.navlist a:hover</div>
+<a name="66"></a><div id="sidebar ul.navlist li a.noborder">ID sidebar ul.navlist li a.noborder</div>
+<a name="67"></a><div id="sidebar ul.navlist li a:hover.noborder">ID sidebar ul.navlist li a:hover.noborder</div>
+<a name="68"></a><div id="sidebar ul.navlist .current_page_item a">ID sidebar ul.navlist .current_page_item a</div>
+<a name="69"></a><div id="sidebar ul.navlist .current_page_item a:hover">ID sidebar ul.navlist .current_page_item a:hover</div>
+<a name="70"></a><div id="sidebar .copyright">ID sidebar .copyright</div>
+<a name="71"></a><div id="sidebar .copyright p">ID sidebar .copyright p</div>
+<a name="72"></a><div id="sidebar .copyright a">ID sidebar .copyright a</div>
+<a name="73"></a><div id="sidebar .copyright a:hover">ID sidebar .copyright a:hover</div>
+<a name="74"></a><div id="sidebar ul.feed li">ID sidebar ul.feed li</div>
+<a name="75"></a><div id="top">ID top</div>
+<a name="76"></a><div id="top a">ID top a</div>
+<a name="77"></a><div id="top a:hover">ID top a:hover</div>
+<a name="78"></a><div id="content">ID content</div>
+<a name="79"></a><div id="content ul li">ID content ul li</div>
+<a name="80"></a><div id="content img.alignleft">ID content img.alignleft</div>
+<a name="81"></a><div id="content img.alignright">ID content img.alignright</div>
+<a name="82"></a><div id="content img.aligncenter">ID content img.aligncenter</div>
+<a name="83"></a><div id="content img.alignleft">ID content img.alignleft</div>
+<a name="84"></a><div id="content img.alignright">ID content img.alignright</div>
+<a name="85"></a><div id="content img.aligncenter">ID content img.aligncenter</div>
+<a name="86"></a><div id="content img.noborder">ID content img.noborder</div>
+<a name="87"></a><div id="content #intro">ID content #intro</div>
+<a name="88"></a><div id="content #intro h1">ID content #intro h1</div>
+<a name="89"></a><div id="content #intro h2">ID content #intro h2</div>
+<a name="90"></a><div id="content #intro p">ID content #intro p</div>
+<a name="91"></a><div id="content #intro a">ID content #intro a</div>
+<a name="92"></a><div id="introduction a">ID introduction a</div>
+<a name="93"></a><div id="content #intro a:hover">ID content #intro a:hover</div>
+<a name="94"></a><div id="introduction a:hover">ID introduction a:hover</div>
+<a name="95"></a><div id="content .navigation">ID content .navigation</div>
+<a name="96"></a><div id="content .browse">ID content .browse</div>
+<a name="97"></a><div id="content .calendar">ID content .calendar</div>
+<a name="98"></a><div id="content .calendar .month">ID content .calendar .month</div>
+<a name="99"></a><div id="content .calendar .date">ID content .calendar .date</div>
+<a name="100"></a><div id="content .post">ID content .post</div>
+<a name="101"></a><div id="content .post .author">ID content .post .author</div>
+<a name="102"></a><div id="content .post .links">ID content .post .links</div>
+<a name="103"></a><div id="content .post .links a">ID content .post .links a</div>
+<a name="104"></a><div id="content .post .links a:hover">ID content .post .links a:hover</div>
+<a name="105"></a><div id="content .post .links .comment">ID content .post .links .comment</div>
+<a name="106"></a><div id="content .post .links .feed">ID content .post .links .feed</div>
+<a name="107"></a><div id="content .post .links .cat">ID content .post .links .cat</div>
+<a name="108"></a><div id="content .post .links .tags">ID content .post .links .tags</div>
+<a name="109"></a><div id="comments-template">ID comments-template</div>
+<a name="110"></a><div id="comments-template p">ID comments-template p</div>
+<a name="111"></a><div id="comments-template p.nocomments">ID comments-template p.nocomments</div>
+<a name="112"></a><div id="comments-template h2">ID comments-template h2</div>
+<a name="113"></a><div id="comments-template h3">ID comments-template h3</div>
+<a name="114"></a><div id="h3 comments">ID h3 comments</div>
+<a name="115"></a><div id="h3 respond">ID h3 respond</div>
+<a name="116"></a><div id="h3 respond">ID h3 respond</div>
+<a name="117"></a><div id="comments-template #commentlist">ID comments-template #commentlist</div>
+<a name="118"></a><div id="comments-template #commentlist img">ID comments-template #commentlist img</div>
+<a name="119"></a><div id="comments-template #commentlist a img">ID comments-template #commentlist a img</div>
+<a name="120"></a><div id="comments-template #commentlist .commentmetadata">ID comments-template #commentlist .commentmetadata</div>
+<a name="121"></a><div id="comments-template #commentlist .avatar">ID comments-template #commentlist .avatar</div>
+<a name="122"></a><div id="comments-template #commentlist .commenttext">ID comments-template #commentlist .commenttext</div>
+<a name="123"></a><div id="comments-template #commentlist.alt">ID comments-template #commentlist.alt</div>
+<a name="124"></a><div id="comments-template #commentlist.alt .commentmetadata">ID comments-template #commentlist.alt .commentmetadata</div>
+<a name="125"></a><div id="comments-template #commentlist.alt .commenttext">ID comments-template #commentlist.alt .commenttext</div>
+<a name="126"></a><div id="wp-calendar">ID wp-calendar</div>
+<a name="127"></a><div id="wp-calendar #next a">ID wp-calendar #next a</div>
+<a name="128"></a><div id="wp-calendar #prev a">ID wp-calendar #prev a</div>
+<a name="129"></a><div id="wp-calendar a">ID wp-calendar a</div>
+<a name="130"></a><div id="wp-calendar a:hover">ID wp-calendar a:hover</div>
+<a name="131"></a><div id="wp-calendar caption">ID wp-calendar caption</div>
+<a name="132"></a><div id="wp-calendar td">ID wp-calendar td</div>
+<a name="133"></a><div id="wp-calendar td.pad:hover">ID wp-calendar td.pad:hover</div>
+<a name="134"></a><div id="wp-calendar td:hover">ID wp-calendar td:hover</div>
+<a name="135"></a><div id="wp-calendar #today">ID wp-calendar #today</div>
+<a name="136"></a><div id="wp-calendar th">ID wp-calendar th</div>
+<a name="137"></a><div id="footer">ID footer</div>
+<a name="138"></a><div id="footer .contentfoot">ID footer .contentfoot</div>
+<a name="139"></a><div id="footer a">ID footer a</div>
+<a name="140"></a><div id="footer a:hover">ID footer a:hover</div>
+<a name="141"></a><div id="footer .backtotop">ID footer .backtotop</div>
+<a name="142"></a><div id="footer .backtotop a">ID footer .backtotop a</div>
+<a name="143"></a><form>Element form</form><br>
+<a name="144"></a><input value="Input Field"><br>
+<a name="145"></a><textarea>Text Area</textarea><br>
+<a name="146"></a><select><option>Drop Down List</option></select><br>
+<a name="147"></a><input value="Input Field"><br>
+<a name="148"></a><textarea>Text Area</textarea><br>
+<a name="149"></a><select><option>Drop Down List</option></select><br>
+<a name="150"></a><label>Element label</label><br>
+<a name="151"></a><div class="errormsg">Class errormsg</div>
+<br>
+<a name="152"></a><input value="Input Field, Class button" class="button"><br>
+<a name="153"></a><input value="Input Field, Class search" class="search"><br>
+
+</body></html>
