@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Mode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-13 00:02+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Denis Rebaud <denis@rebaud.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: .././inc.swg-plugin-framework.php:57
+msgid "Plugin"
+msgstr "Extension"
+
+#: .././inc.swg-plugin-framework.php:59
+msgid "Plugin's Homepage"
+msgstr "Site de l&rsquo;extension"
+
+#: .././inc.swg-plugin-framework.php:60
+msgid "WordPress Support"
+msgstr "Support Wordpress"
+
+#: .././inc.swg-plugin-framework.php:61
+msgid "Other Plugins I've Written"
+msgstr "Autres extensions écrites par l'auteur"
+
+#: .././inc.swg-plugin-framework.php:64
+msgid "Do you like this plugin?"
+msgstr "Aimez-vous cette extension ?"
+
+#: .././inc.swg-plugin-framework.php:65
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "J'ai passé pas mal de temps sur les extensions que j'ai écrites pour WordPress. Un don serait grandement apprécié."
+
+#: .././inc.swg-plugin-framework.php:67
+msgid "Donate via PayPal"
+msgstr "Faire un don via Paypal"
+
+#: .././inc.swg-plugin-framework.php:68
+msgid "My Amazon Wish List"
+msgstr "Ma liste de souhaits Amazon"
+
+#: .././inc.swg-plugin-framework.php:86
+msgid "The activated plugin"
+msgstr "L'extension activée"
+
+#: .././inc.swg-plugin-framework.php:87
+msgid "is not compatible with your installed WordPress"
+msgstr "n'est pas compatible avec la version de WordPress actuellement intallée"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "WordPress version"
+msgstr "version de WordPress"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr "ou supérieure est requise pour utiliser cette extension. Veuillez la désactiver."
+
+#: .././inc.swg-plugin-framework.php:99
+msgid "Settings deleted/reset."
+msgstr "Paramètres de réglage supprimés/réinitialisés."
+
+#: .././inc.swg-plugin-framework.php:126
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: .././inc.swg-plugin-framework.php:239
+msgid "You do not have permission to modify the options"
+msgstr "Vous n'avez les permissions suffisantes pour modifier les options"
+
+#: .././inc.swg-plugin-framework.php:271
+msgid "Plugin Settings"
+msgstr "Réglages de l'extension"
+
+#: .././inc.swg-plugin-framework.php:284
+#: .././maintenance-mode.php:126
+msgid "Save Changes"
+msgstr "Enregistrer les réglages"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "Désirez-vous réellement supprimer/réinitialiser les réglages de l'extension ?"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Delete/Reset Settings"
+msgstr "Suppression/réinitialisation des paramètres de réglage"
+
+#: .././maintenance-mode.php:73
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "Le mode Maintenance est activé. N'oubliez pas de le"
+
+#: .././maintenance-mode.php:73
+msgid "deactivate"
+msgstr "désactiver"
+
+#: .././maintenance-mode.php:73
+msgid "it as soon as you are done."
+msgstr "dès que vous avez terminé les opérations de maintenance."
+
+#: .././maintenance-mode.php:113
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "Activer/Désactiver le mode Maintenance"
+
+#: .././maintenance-mode.php:118
+msgid "Activated"
+msgstr "Activé"
+
+#: .././maintenance-mode.php:121
+msgid "Deactivated"
+msgstr "Désactivé"
+
+#: .././maintenance-mode.php:132
+#: .././maintenance-mode.php:139
+msgid "Message"
+msgstr "Message"
+
+#: .././maintenance-mode.php:135
+msgid "Title"
+msgstr "Titre"
+
+#: .././maintenance-mode.php:141
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "N'utiliser que du code HTML, pas de script PHP. Vous pouvez utiliser <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> et <strong>[backtime]</strong> comme balises."
+
+#: .././maintenance-mode.php:147
+msgid "Backtime and HTTP header"
+msgstr "Temps de retour et entête HTTP"
+
+#: .././maintenance-mode.php:150
+msgid "Backtime in minutes"
+msgstr "Durée de la maintenance en minutes ('backtime')"
+
+#: .././maintenance-mode.php:152
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "Un entête HTML spécial pour les 'feeds' et les 'trackbacks' peut être généré (&laquo;503 Service indisponible&raquo;) incluant  'revenir après x minutes'. Entrer ici le temps approximatif en minutes avant la prochaine tentative. De même, en utilisant la balise <strong>[backtime]</strong> ci-dessous, le temps en minutes sera également signalé aux visiteurs."
+
+#: .././maintenance-mode.php:157
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "Ajouter un en-tête HTTP '503 Service indisponible' 'et 'Retenter après <backtime>' à la page d'accueil du mode maintenance"
+
+#: .././maintenance-mode.php:161
+msgid "Paths to be still accessable"
+msgstr "Chemins à rendre accessibles"
+
+#: .././maintenance-mode.php:163
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "Entrer les chemins qui doivent être exclus et rester accessibles. Séparer chaque chemin par un saut de ligne.<br />Exemple : Si vous voulez exclure <em>http://site.com/apropos/</em>, entrer dans ce cas , saisir <em>/apropos/</em>."
+
+#: .././maintenance-mode.php:168
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "Comment autoriser les éditeurs de contenu à voir la face publique du blog ('front-end')"
+
+#: .././maintenance-mode.php:169
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "Dès que vous activez le mode de maintenance, une page d'accueil est ajoutée à votre blog pour informer les visiteurs qu'une action de maintenance est en cours. Les administrateurs connectés disposent d'un plein accès au blog, y compris les pages visibles en temps ordinaire ('front-end').<br />Cette extension ajoute la capacité 'access_on_maintenance' au rôle « Administrateur ». Si les utilisateurs disposant d'un rôle spécifique, par exemple 'Editor', doivent obtenir le plein accès au blog, utiliser une extension appropriée comme"
+
+#: .././maintenance-mode.php:171
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr "et accorder la capacité  'Access On Maintenance' au rôle d'éditeur ou pour tout autre rôle de votre choix.<br />Consulter"
+
+#: .././maintenance-mode.php:173
+msgid "for further information."
+msgstr "pour plus d'informations."
+

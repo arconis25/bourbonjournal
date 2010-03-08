@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Mode in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-03 17:27+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gianni Diurno (aka gidibao) <gidibao@gmail.com>\n"
+"Language-Team: Gianni Diurno | http://gidibao.net/ <gidibao@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: .././inc.swg-plugin-framework.php:81
+#: .././inc.swg-plugin-framework.php:82
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: .././inc.swg-plugin-framework.php:91
+msgid "Plugin"
+msgstr "Plugin"
+
+#: .././inc.swg-plugin-framework.php:93
+msgid "Plugin's Homepage"
+msgstr "Homepage del plugin"
+
+#: .././inc.swg-plugin-framework.php:94
+msgid "WordPress Support"
+msgstr "Supporto WordPress"
+
+#: .././inc.swg-plugin-framework.php:95
+msgid "Other Plugins I've Written"
+msgstr "Info plugin..."
+
+#: .././inc.swg-plugin-framework.php:98
+msgid "Do you like this plugin?"
+msgstr "Ti piace questo plugin?"
+
+#: .././inc.swg-plugin-framework.php:99
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "Lo sviluppo dei plugin che ho realizzato per WordPress ha richiesto molto tempo. Ogni donazione sarà ben accetta."
+
+#: .././inc.swg-plugin-framework.php:101
+msgid "Donate via PayPal"
+msgstr "Donazione via Paypal"
+
+#: .././inc.swg-plugin-framework.php:102
+msgid "My Amazon Wish List"
+msgstr "Amazon Wish List"
+
+#: .././inc.swg-plugin-framework.php:120
+msgid "The activated plugin"
+msgstr "Il plugin"
+
+#: .././inc.swg-plugin-framework.php:121
+msgid "is not compatible with your installed WordPress"
+msgstr "non é compatibile con la tua versione installata di WordPress"
+
+#: .././inc.swg-plugin-framework.php:122
+msgid "WordPress version"
+msgstr "Versione WordPress"
+
+#: .././inc.swg-plugin-framework.php:122
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr "o superiore é necessaria per l'utilizzo di questo plugin. Disattiva, grazie."
+
+#: .././inc.swg-plugin-framework.php:348
+msgid "You do not have permission to modify the options"
+msgstr "Non hai il permesso per poter modificare le opzioni"
+
+#: .././inc.swg-plugin-framework.php:370
+msgid "Settings deleted/reset."
+msgstr "Impostazioni cancellate/ripristinate."
+
+#: .././inc.swg-plugin-framework.php:372
+msgid "Settings saved."
+msgstr "Le impostazioni sono state salvate."
+
+#: .././inc.swg-plugin-framework.php:408
+msgid "Plugin Settings"
+msgstr "Impostazioni plugin"
+
+#: .././inc.swg-plugin-framework.php:421
+#: .././maintenance-mode.php:144
+msgid "Save Changes"
+msgstr "Salva le modifiche"
+
+#: .././inc.swg-plugin-framework.php:422
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "Sei certo di volere cancellare/ripristinare le impostazioni del plugin?"
+
+#: .././inc.swg-plugin-framework.php:422
+msgid "Delete/Reset Settings"
+msgstr "Impostazioni Cancella/Ripristina"
+
+#: .././maintenance-mode.php:88
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "La modalità Manutenzione é attiva. Non dimenticarti di "
+
+#: .././maintenance-mode.php:88
+msgid "deactivate"
+msgstr "disattivare"
+
+#: .././maintenance-mode.php:88
+msgid "it as soon as you are done."
+msgstr "quando avrai ultimato il tuo lavoro sul sito. "
+
+#: .././maintenance-mode.php:131
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "Attiva/Disattiva la modalità Manutenzione"
+
+#: .././maintenance-mode.php:136
+msgid "Activated"
+msgstr "Attivo"
+
+#: .././maintenance-mode.php:139
+msgid "Deactivated"
+msgstr "Non attivo"
+
+#: .././maintenance-mode.php:150
+#: .././maintenance-mode.php:157
+msgid "Message"
+msgstr "Messaggio"
+
+#: .././maintenance-mode.php:153
+msgid "Title"
+msgstr "Titolo"
+
+#: .././maintenance-mode.php:159
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "Utilizza solamente l'HTML: il PHP non é permesso. Potrai fare uso di <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> e <strong>[backtime]</strong>."
+
+#: .././maintenance-mode.php:163
+msgid "Use 503.php"
+msgstr "Utilizza 503.php"
+
+#: .././maintenance-mode.php:164
+msgid "With the following option activated the plugin will use the file '503.php' from the current theme directory for the splash page instead using 'maintenance-mode_site.php' from the plugin directory; If there is no '503.php', it will use the default file 'maintenance-mode_site.php'."
+msgstr "Con la seguente opzione attivata il plugin farà uso del file '503.php' allocato nella cartella del tema attualmente in uso (pagina splash) al posto di utilizzare 'maintenance-mode_site.php' dalla cartella del plugin; qualora non fosse presente un '503.php' verrà utilizzato come predefinito il file 'maintenance-mode_site.php'."
+
+#: .././maintenance-mode.php:165
+msgid "So this option will help using a customized splash page without the fear of losing this page when updating the plugin."
+msgstr "Questa opzione verrà in aiuto per l'utilizzo di una pagina splash personalizzata senza il pericolo che questa pagina vada persa durante l'aggiornamento del plugin."
+
+#: .././maintenance-mode.php:166
+msgid "Please note that you can't use WordPress theme functions (e.g. <em>get_sidebar()</em>, etc.) in the '503.php'."
+msgstr "Ti ricordo che non potrai utilizzare le funzioni WordPress del tema (ad es. <em>get_sidebar()</em>, etc.) nel file '503.php'."
+
+#: .././maintenance-mode.php:170
+msgid "Use 503.php from within the theme directory for the splash page"
+msgstr "Utilizza per la pagina splash il file 503.php allocato nella cartella del tema"
+
+#: .././maintenance-mode.php:174
+msgid "Backtime and HTTP header"
+msgstr "Ritorno operatività e header HTTP"
+
+#: .././maintenance-mode.php:177
+msgid "Backtime in minutes"
+msgstr "Ritorno operatività"
+
+#: .././maintenance-mode.php:179
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "Verrà applicato uno speciale header HTML per i feed ed i trackback (&laquo;503 Service Unavailable&raquo;) incluso 'riprova tra x minuti'. Inserisci qui il tempo stimato per il ritorno. Inoltre, utilizzando il <strong>[backtime]</strong> qui sopra, verrà mostrato ai visitatori il tempo di ritorno espresso in minuti."
+
+#: .././maintenance-mode.php:184
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "Applica HTTP header '503 Service Unavailable' e 'Riprova-Tra &lt;backtime&gt;' alla pagina di Manutenzione"
+
+#: .././maintenance-mode.php:188
+msgid "Paths to be still accessable"
+msgstr "Percorsi ancora accessibili"
+
+#: .././maintenance-mode.php:190
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "Inserisci i percorsi che dovranno essere esclusi per rimanere disponibili. Separa i percorsi l'uno dall'altro andando a capo (INVIO).<br />Esempio: volessi escludere <em>http://site.com/about/</em>, dovrai inserire <em>/about/</em>."
+
+#: .././maintenance-mode.php:195
+msgid "Permissions"
+msgstr "Permessi"
+
+#: .././maintenance-mode.php:196
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "Come permettere agli editori la visualizzazzione front-end del blog"
+
+#: .././maintenance-mode.php:197
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "Una volta che avrai attivato la modalità di manutenzione del sito, verrà aggiunta al tuo blog una pagina grazie alla quale i tuoi visitatori verranno informati della operazione in corso. Per quanto invece concerne agli amministratori, essi avranno l'accesso completo al blog compresa la visualizzazione front-end e non verrà loro mostrata la pagina di manutenzione.<br />Questo plugin aggiunge la proprietà  'access_on_maintenance' al ruolo di 'Amministratore'. Qualora degli utenti con un determinato ruolo, ad esempio 'Editore', dovessero avere anche essi l'accesso completo al blog, sarà necessario utilizzare un plugin appropriato, quale ad esempio"
+
+#: .././maintenance-mode.php:199
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr "e garantire la possibilità di  'Access On Maintenance' per il ruolo di 'Editore' o per ogni altro ruolo di tua preferenza. <br />Vedi qui"
+
+#: .././maintenance-mode.php:201
+msgid "for further information."
+msgstr "per ulteriori informazioni."
+
+#: .././maintenance-mode.php:203
+msgid "How to deny non-administrators to access the blog's back-end (in addition to not see the front-end)"
+msgstr "Come negare l'accesso al back-end del blog agli utenti che non sono amministratori del sito (in aggiunta alla visualizzazzione proibita del front-end)"
+
+#: .././maintenance-mode.php:204
+msgid "By activating the following option, you can prevent users that do not have the capability 'access_on_maintenance' from being able to access the back-end (the WordPress' administration) too. This plugin adds the capability 'access_on_maintenance' to the role 'Administrator', so any other roles (like editors, authors, etc.) will not have access to the back-end after activating the following option."
+msgstr "Attivando la seguente opzione farai in modo che gli utenti non aventi la facoltà 'access_on_maintenance' non possano accedere anche al back-end (la sezione di amministrazione di WordPress). Questo plugin contempla la facoltà 'access_on_maintenance' per il ruolo di 'Amministratore' quindi, ogni altro ruolo (quale autori, editori, etc.) non potrà accedere al back-end una volta attivata l'opzione a seguire."
+
+#: .././maintenance-mode.php:208
+msgid "Deny non-administrators to access the blog's back-end"
+msgstr "Nega agli utenti che non sono amministratori l'accesso al back-end del blog"
+
+#: .././maintenance-mode_site.php:52
+msgid "(Access to administration denied by administrator)"
+msgstr "(Accesso alla sezione admin negato dall'amministratore)"
+

@@ -11,6 +11,12 @@
 
 	        <!-- ... and now the slogan: -->
 	        <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+               
 	        <?php bloginfo('name'); ?>
 	        </a>
 	    </div>
@@ -32,7 +38,7 @@
 		<ul class="feed">
 			<li>
 		        <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>">
-					<?php _e('Entries <abbr title="Really Simple Syndication">RSS</abbr>'); ?>
+					<?php _e('<abbr title="Really Simple Syndication">RSS</abbr>'); ?>
 				</a>
 			</li>
 		</ul>
@@ -86,7 +92,7 @@ The Bourbon Journal
     <!-- Copyrights -->
 	<li class="copyright">
 	<!-- Type your copyright information below -->
-	<p>&copy; All your copyright information here. Open template's sidebar.php file to edit this!</p>
+	<p>&copy; 2010 The Bourbon Journal</p>
 	</li>
 
 </ul>

@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Capability Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-27 01:01+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jordi Canals <alkivia@jcanals.net>\n"
+"Language-Team: Alkivia | http://alkivia.org <alkivia@jcanals.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-general.php:39
+msgid "Roles and Capabilities"
+msgstr ""
+
+#: ../admin-general.php:48
+#, php-format
+msgid "Capabilities for %s"
+msgstr ""
+
+#: ../admin-general.php:95
+msgid "Level:"
+msgstr ""
+
+#: ../admin-general.php:118
+#: ../manager.php:231
+msgid "Save Changes"
+msgstr ""
+
+#: ../admin-general.php:120
+msgid "Delete this role"
+msgstr ""
+
+#: ../admin-general.php:120
+#, php-format
+msgid ""
+"You are about to delete the %s role.\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: ../admin-general.php:120
+msgid "Delete Role"
+msgstr ""
+
+#: ../admin-general.php:132
+#: ../backup.php:81
+msgid "Plugin Homepage"
+msgstr ""
+
+#: ../admin-general.php:133
+#: ../backup.php:82
+msgid "Support Forum"
+msgstr ""
+
+#: ../admin-general.php:134
+#: ../backup.php:83
+msgid "Author Homepage"
+msgstr ""
+
+#: ../admin-general.php:135
+#: ../backup.php:84
+msgid "Help donating"
+msgstr ""
+
+#: ../admin-general.php:141
+msgid "Select New Role"
+msgstr ""
+
+#: ../admin-general.php:149
+#: ../manager.php:208
+msgid "Change"
+msgstr ""
+
+#: ../admin-general.php:154
+msgid "Create New Role"
+msgstr ""
+
+#: ../admin-general.php:157
+#: ../manager.php:212
+msgid "Create"
+msgstr ""
+
+#: ../admin-general.php:162
+msgid "Copy this role to"
+msgstr ""
+
+#: ../admin-general.php:165
+#: ../manager.php:221
+msgid "Copy"
+msgstr ""
+
+#: ../admin-general.php:170
+msgid "Add Capability"
+msgstr ""
+
+#: ../admin-general.php:173
+#: ../manager.php:235
+msgid "Add to role"
+msgstr ""
+
+#: ../backup.php:36
+msgid "Backup Tool for Capability Manager"
+msgstr ""
+
+#: ../backup.php:45
+msgid "Backup and Restore"
+msgstr ""
+
+#: ../backup.php:49
+msgid "Select action:"
+msgstr ""
+
+#: ../backup.php:52
+msgid "Backup roles and capabilities"
+msgstr ""
+
+#: ../backup.php:53
+msgid "Restore last saved backup"
+msgstr ""
+
+#: ../backup.php:55
+msgid "Do Action"
+msgstr ""
+
+#: ../backup.php:63
+msgid "Reset WordPress Defaults"
+msgstr ""
+
+#: ../backup.php:65
+msgid "WARNING:"
+msgstr ""
+
+#: ../backup.php:65
+msgid "Reseting default Roles and Capabilities will set them to the WordPress install defaults."
+msgstr ""
+
+#: ../backup.php:66
+msgid "If you have installed any plugin that adds new roles or capabilities, these will be lost."
+msgstr ""
+
+#: ../backup.php:67
+msgid "It is recommended to use this only as a last resource!"
+msgstr ""
+
+#: ../backup.php:68
+msgid "Reset Roles and Capabilities to WordPress defaults"
+msgstr ""
+
+#: ../backup.php:68
+msgid ""
+"You are about to reset Roles and Capabilities to WordPress defaults.\n"
+" 'Cancel' to stop, 'OK' to reset."
+msgstr ""
+
+#: ../backup.php:68
+msgid "Reset to WordPress defaults"
+msgstr ""
+
+#: ../capsman.php:50
+#: ../framework/plugins.php:467
+#: ../framework/plugins.php:509
+msgid "Warning:"
+msgstr ""
+
+#: ../capsman.php:51
+#, php-format
+msgid "The active plugin %s is not compatible with your PHP version."
+msgstr ""
+
+#: ../capsman.php:53
+#, php-format
+msgid "%s is required for this plugin."
+msgstr ""
+
+#: ../manager.php:117
+#: ../manager.php:118
+msgid "Capability Manager"
+msgstr ""
+
+#: ../manager.php:117
+msgid "Capabilities"
+msgstr ""
+
+#: ../manager.php:140
+#: ../manager.php:174
+msgid "What do you think you're doing?!?"
+msgstr ""
+
+#: ../manager.php:199
+msgid "Bad form Received"
+msgstr ""
+
+#: ../manager.php:214
+#: ../manager.php:224
+msgid "New role created."
+msgstr ""
+
+#: ../manager.php:217
+#: ../manager.php:227
+msgid "Error: Failed creating the new role."
+msgstr ""
+
+#: ../manager.php:232
+msgid "New capabilities saved."
+msgstr ""
+
+#: ../manager.php:240
+msgid "New capability added to role."
+msgstr ""
+
+#: ../manager.php:242
+msgid "Incorrect capability name."
+msgstr ""
+
+#: ../manager.php:245
+msgid "Bad form received."
+msgstr ""
+
+#: ../manager.php:264
+msgid "New backup saved."
+msgstr ""
+
+#: ../manager.php:270
+msgid "Roles and Capabilities restored from last backup."
+msgstr ""
+
+#: ../manager.php:272
+msgid "Restore failed. No backup found."
+msgstr ""
+
+#: ../manager.php:293
+#, php-format
+msgid "Cannot delete default role. You <a href=\"%s\">have to change it first</a>."
+msgstr ""
+
+#: ../manager.php:314
+#, php-format
+msgid "Role %1$s has been deleted. %2$d users moved to default role %3$s."
+msgstr ""
+
+#: ../manager.php:327
+msgid "Needed function to create default roles not found!"
+msgstr ""
+
+#: ../manager.php:339
+msgid "Roles and Capabilities reset to WordPress defaults"
+msgstr ""
+
+#: ../manager.php:511
+msgid "You cannot remove Manage Capabilities from Administrators"
+msgstr ""
+
+#: ../framework/formating.php:38
+msgid "Settings saved."
+msgstr ""
+
+#: ../framework/plugins.php:468
+#, php-format
+msgid "The active plugin %s is not compatible with your WordPress version."
+msgstr ""
+
+#: ../framework/plugins.php:470
+#, php-format
+msgid "WordPress %s is required to run this plugin."
+msgstr ""
+
+#: ../framework/plugins.php:510
+msgid "Standard sidebar functions are not present."
+msgstr ""
+
+#: ../framework/plugins.php:511
+#, php-format
+msgid "It is required to use the standard sidebar to run %s"
+msgstr ""
+
